@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- 
+        <meta charset="UTF-8">
+        <title>Tim Berners-Lee</title>
+        <!--
             a) Use css to format a heading and paragraph about the inventor of the web, Tim Berners Lee. The text should be dark grey but not quite black.
-            b) Modify the picture to be a picture of Tim Berners Lee, that is accessible to a screen reader. 
+            b) Modify the picture to be a picture of Tim Berners Lee, that is accessible to a screen reader.
         -->
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 20px;
+            }
+
+            /* dark grey, not quite black */
+            h1, p, figcaption {
+                color: #333333;
+            }
+
+            p {
+                line-height: 1.6;
+                max-width: 700px;
+            }
+
+            img {
+                width: 300px;
+                height: auto;
+            }
+
+            figcaption {
+                font-size: 0.85em;
+            }
+        </style>
     </head>
     <body>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/0312_Puppy_Black_Labrador_DSC02067.JPG/640px-0312_Puppy_Black_Labrador_DSC02067.JPG" crossorigin="anonymous" />
+        <h1>Tim Berners-Lee</h1>
+        <p>Sir Tim Berners-Lee is the British computer scientist who invented the World Wide Web. In 1989, while he was working at CERN in Switzerland, he came up with a way for researchers to share documents by linking them together over the internet. By the end of 1990 he had built the first web browser, web server and website. Instead of patenting it and making money off it, he made the web free for anyone to use, which is a big part of why it took off. He went on to found the World Wide Web Consortium (W3C) in 1994, the group that still sets the standards for HTML and CSS, so in a way he's the reason this assignment exists.</p>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Tim_Berners-Lee_April_2009.jpg" alt="Sir Tim Berners-Lee, inventor of the World Wide Web, photographed in 2009" crossorigin="anonymous" />
+            <figcaption>Sir Tim Berners-Lee in 2009. Photo by Enrique Dans, CC BY 2.0.</figcaption>
+        </figure>
     </body>
 </html>
